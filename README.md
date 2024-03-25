@@ -12,14 +12,13 @@ The good thing is that we can tweak the UI to our likings using userscripts! Thi
 - Improve UI, easier on the eye.
 - Sticky navbar.
 - New Roboto font.
+- Minor fixes like paddings, sizing, removing language selector.
 
 ### Usage
 The script has been tested with Greasemonkey, Tampermonkey and Violentmonkey, should work on both Firefox and Chrome. In case you are using Chrome, consider switching to Firefox!
 
 ### Disclaimer
-Use this at your own risk.
+Use this at your own risk, no external scripts are required.
 
 ### License
-```
-MIT License
-```
+`MIT License`
