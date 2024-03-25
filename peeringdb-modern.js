@@ -16,11 +16,11 @@
 
 // Loop through the page to find the ASN field and add a button to BGP.Tools;
     if (document.querySelector('.view_fields')) {
-        var list = document.querySelector('.view_fields').getElementsByClassName('row view_row');
+        let list = document.querySelector('.view_fields').getElementsByClassName('row view_row');
         for (let item of list) {
             if (item.getElementsByClassName('view_field col-4 col-sm-5 col-md-4')[0]) {
-                if (item.getElementsByClassName('view_field col-4 col-sm-5 col-md-4')[0].innerText.toString() == "ASN") {
-                    var asn = item.getElementsByClassName('view_value col-8 col-sm-7 col-md-8')[0];
+                if (item.getElementsByClassName('view_field col-4 col-sm-5 col-md-4')[0].innerText.toString() === "ASN") {
+                    let asn = item.getElementsByClassName('view_value col-8 col-sm-7 col-md-8')[0];
                     asn.innerHTML = asn.innerText + ' <a href="https://bgp.tools/as/' + asn.innerText + '" target="_blank" class="btn btn-sm" style="font-size: 10px; color: #fff; margin: 0;" rel="nofollow">BGP</a>';
                 }
             }
