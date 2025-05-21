@@ -16,9 +16,10 @@
 "use strict";
 
 // Find the ASN field and add the button to BGP. Tools;
-let asn = document.querySelector('div[data-edit-name="asn"]');
-if (asn) {
-    asn.innerHTML = asn.innerText + ' <a href="https://bgp.tools/as/' + asn.innerText + '" target="_blank" class="btn btn-sm" style="font-size: 10px; color: #fff; margin: 0; padding: 0.15rem 1.5rem;" rel="nofollow">BGP</a>';
+let asField = document.querySelector('div[data-edit-name="asn"]');
+if (asField) {
+  let asNumber = asField.innerText;
+  asField.innerHTML = asNumber + ' <a href="https://bgp.tools/as/' + asNumber + '" target="_blank" class="btn btn-sm" style="font-size: 10px; color: #fff; margin: 0; padding: 0.15rem 1.5rem;" rel="nofollow">BGP</a>';
 }
 
 // Because PeeringDB already uses Google Icons, we add fonts as well;
