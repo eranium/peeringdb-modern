@@ -17,6 +17,9 @@ The good thing is that we can tweak the UI to our likings using userscripts! Thi
 ### Usage
 The script has been tested with Greasemonkey, Tampermonkey and Violentmonkey, should work on both Firefox and Chrome. In case you are using Chrome, consider switching to Firefox!
 
+### Installation
+[Click here](https://github.com/eranium/peeringdb-modern/raw/refs/heads/main/peeringdb-modern.user.js) to install this user script.
+
 ### Disclaimer
 Use this at your own risk, no external scripts are required.
 
