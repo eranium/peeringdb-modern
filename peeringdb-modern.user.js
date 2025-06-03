@@ -8,7 +8,6 @@
 // @match https://www.peeringdb.com/*
 // @exclude https://www.peeringdb.com/apidocs/*
 // @icon https://www.peeringdb.com/s/favicon.ico
-// @downloadURL https://raw.githubusercontent.com/eranium/peeringdb-modern/refs/heads/main/peeringdb-modern.js
 // @run-at document-end
 // ==/UserScript==
 
